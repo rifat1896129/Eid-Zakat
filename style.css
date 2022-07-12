@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Serif', serif;
+
+}
+
+.heading-part {
+    background-image: url(images/Rectangle\ 1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+
+}
+
+.banner-text {
+    position: absolute;
+    width: 30%;
+    text-align: left;
+    color: blanchedalmond;
+    margin-top: 120px;
+    margin-left: 150px;
+
+}
+
+
+.text-area {
+    display: flex;
+    margin: 60px auto;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.Donate-button {
+    color: white;
+    background-color: #EF233C;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 20px;
+}
+
+.half-width {
+    width: 60%;
+    flex-basis: left;
+    margin-left: 100px;
+}
+
+.half-width img {
+    width: 80%;
+    height: 80%;
+}
+
+.third-part {
+    text-align: center;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 10px 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.help-item {
+    background-color: bisque;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.picture img {
+    height: 200px;
+    width: 200px;
+    margin: 0px 10px;
+}
+
+.donate-zakat {
+    height: 350px;
+    width: 250px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 15px;
+}
+
+.donate-zakat img {
+    height: 150px;
+    width: 250px;
+}
+
+.donate-zakat h3 {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.donate-zakat p {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.donate-zakat button {
+    margin-left: 15px;
+    margin-top: 10px;
+    color: red;
+    text-decoration: underline;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+
+.zakatDonationPart {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: left;
+}
+
+.forth-part {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: red;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer p {
+    margin-top: 10px;
+}
